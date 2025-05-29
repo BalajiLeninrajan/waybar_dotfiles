@@ -1,0 +1,34 @@
+/* ---- 💫 https://github.com/JaKooLit 💫 ---- */
+// ### Balaji - Custom ### //
+{
+  "include": [
+    "$HOME/.config/waybar/Modules",
+    "$HOME/.config/waybar/ModulesWorkspaces",
+    "$HOME/.config/waybar/ModulesCustom",
+    "$HOME/.config/waybar/ModulesGroups",
+    "$HOME/.config/waybar/UserModules"
+  ],
+  "layer": "top",
+  "position": "top",
+  "fixed-center": true,
+  "modules-left": [
+    "group/app_drawer",
+    "hyprland/workspaces#tamil"
+  ],
+  "modules-center": [
+    "custom/swaync",
+    "custom/separator#dot-line",
+    "clock",
+    "custom/separator#dot-line",
+    "custom/weather"
+  ],
+  "modules-right": [
+    "tray",
+    "custom/separator#dot-line",
+    "group/mobo_drawer",
+    "group/laptop",
+    "group/audio",
+    "custom/separator#dot-line",
+    "group/status"
+  ]
+}
