@@ -137,9 +137,18 @@ tooltip label {
 }
 
 #battery {
-  color: #a6e3a1;
+  color: @green;
   padding-left: 15px;
   border-radius: 15px 0 0 15px;
+}
+
+#temperature {
+  color: @teal;
+  padding-right: 0px;
+}
+
+#temperature.critical {
+  background-color: @red;
 }
 
 @keyframes blink {
@@ -172,11 +181,11 @@ tooltip label {
 }
 
 #backlight {
-  color: @flamingo;
+  color: @blue;
 }
 
 #custom-weather {
-  color: @green;
+  color: @lavender;
   border-radius: 15px;
   background-color: transparent;
 }
