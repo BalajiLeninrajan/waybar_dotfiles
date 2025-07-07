@@ -202,7 +202,7 @@ window#waybar.empty #window {
 }
 
 #temperature.critical {
-  background-color: @red;
+  color: @red;
 }
 
 #tray > .passive {
